@@ -15,7 +15,7 @@ def get_user_morph(morph):
 
 
 class SortSelectionLines(sublime_plugin.TextCommand):
-    def run(self, edit, case_sensitive=True, morph=_DEFAULT_MORPH):
+    def run(self, edit, case_sensitive=False, morph=_DEFAULT_MORPH):
         self.morph = get_user_morph(morph)
         self.edit = edit
         self.case_sensitive = case_sensitive
