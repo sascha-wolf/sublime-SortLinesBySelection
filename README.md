@@ -30,7 +30,7 @@ Here a little example for a custom line sort:
     [
         {
             "caption": "Sort Lines by Selection",
-            "command": "sort_selection_lines",
+            "command": "sort_lines_by_selection",
             "args": {
                 "morph": "s[::-1]" // This will reverse the string
             }
