@@ -1,0 +1,13 @@
+[
+    {
+        "caption": "Sort Lines by Selection",
+        "command": "sort_selection_lines"
+    },
+    {
+        "caption": "Sort Lines by Selection (Case Sensitive)",
+        "command": "sort_selection_lines",
+        "args": {
+		"case_sensitive": true
+        }
+    }
+]
