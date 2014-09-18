@@ -14,7 +14,7 @@ def get_user_morph(morph):
         return locals()["user_morph"]
 
 
-class SortSelection(sublime_plugin.TextCommand):
+class SortSelectionLines(sublime_plugin.TextCommand):
     def run(self, edit, case_sensitive=True, morph=_DEFAULT_MORPH):
         self.morph = get_user_morph(morph)
         self.edit = edit
